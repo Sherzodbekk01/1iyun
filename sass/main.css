@@ -1,0 +1,333 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+section .main-2 .h1-boxx h1, section .main-2 .nav-header h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2C2C2C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  width: 1920px;
+}
+
+.container {
+  width: 1832px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 40px 0;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav ul {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+header .nav ul .menu-nav__item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #181616;
+}
+header .nav ul .active {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8FD8AC;
+}
+header .nav ul li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2C2C2C;
+}
+header .navbar-btn a {
+  padding: 10px 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7B83CE;
+  border-radius: 20px;
+  border: 1px solid #7B83CE;
+  width: 269px;
+  height: 42px;
+}
+header .menu-btn {
+  color: #303030;
+  height: 15.71px;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+header .menu-btn span {
+  color: #7B83CE;
+}
+
+.active {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8FD8AC;
+}
+
+.three-icon {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  align-content: center;
+}
+
+.menu-burger {
+  display: none;
+}
+
+.main {
+  padding: 40px 0;
+  border-radius: 12px;
+  width: 896px;
+}
+.main h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2C2C2C;
+  margin-bottom: 60px;
+}
+.main .bg-green {
+  width: 834px;
+  height: 170px;
+  background: #8FD8AC;
+  border-radius: 8px;
+  display: flex;
+}
+.main .bg-green__card {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.main .bg-green__card h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.main .bg-green__card p {
+  margin-top: 25px;
+}
+.main .bg-green__card span {
+  margin-left: 16px;
+}
+.main .bg-green__card .bg-green__parag1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.main .bg-green__card .bg-green__parag2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.main .bg-green .bg-card-2 {
+  display: flex;
+  gap: 7px;
+  margin-top: 40.5px;
+  margin-left: 100px;
+}
+.main .bg-green .bg-card-2 .starts-3 img {
+  display: block;
+  margin: 5px;
+  width: 14px;
+  height: 14px;
+}
+.main .bg-green .bg-card-2 .starts-3 .icon-mar-top {
+  margin-top: 30px;
+}
+
+section {
+  background-color: #edebeb;
+}
+section .main-sec {
+  background-color: #fff;
+  padding: 30px 32px 30px 30px;
+}
+section #div-box {
+  margin-top: 30px;
+  background-color: #fff;
+  justify-content: space-between;
+}
+section #div-box h5 {
+  color: #2C2C2C;
+}
+section #div-box p {
+  color: #2c2c2c;
+}
+section #div-box img {
+  color: #2C2C2C;
+}
+section #div-box .p-color-green {
+  color: #8FD8AC;
+}
+section #div-box .bg-card-2 {
+  margin-right: 90px;
+}
+
+section .main-2 {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+section .main-2 .nav-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+section .main-2 .nav-header p {
+  font-size: 24px;
+}
+section .main-2 .main-2-nav {
+  width: 896px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 58px;
+}
+section .main-2 .box-left {
+  background-color: #fff;
+  width: 896px;
+  height: 229px;
+  border-radius: 12px;
+  display: flex;
+  gap: 81px;
+}
+section .main-2 .box-left div {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+section .main-2 .box-left div p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* Saas/dark */
+  color: #2C2C2C;
+  opacity: 0.4;
+}
+section .main-2 .box-left h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2C2C2C;
+}
+section .main-2 .box-left .time-img {
+  transform: translateX(67px);
+  margin-bottom: 35px;
+}
+section .main-2 .h1-boxx {
+  display: flex;
+  padding: 40px 0 30px 0;
+  justify-content: space-between;
+}
+section .main-2 .box-two {
+  display: flex;
+  gap: 30px;
+}
+section .main-2 .box-two-child {
+  display: flex;
+  width: 378px;
+  background-color: #fff;
+  box-shadow: 0px 4px 54px rgba(0, 27, 98, 0.03);
+  border-radius: 12px;
+  padding: 20px 26px;
+}
+section .main-2 .box-two-child img {
+  width: 58px;
+  height: 58px;
+}
+section .main-2 .box-two-child div {
+  margin-left: 37px;
+}
+section .main-2 .box-two-child h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2C2C2C;
+}
+section .main-2 .box-two-child h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C2C2C;
+}
+section .main-2 .box-two-child p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #2C2C2C;
+  padding: 4px 10px 4px 10px;
+  background: #F6F7F8;
+  width: 86px;
+  border-radius: 45px;
+}
+section .main-2 .box-two-child .para-btn {
+  margin-left: 200px;
+}
+section .main-2 .two-img {
+  margin-left: 26px;
+}
+section .container {
+  display: flex;
+  padding: 40px;
+}
+
+section .main-2 .nav-header p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  color: #2C2C2C;
+  opacity: 0.5;
+}/*# sourceMappingURL=main.css.map */
